@@ -1,0 +1,1 @@
+export const API = "https://api-crud.elcho.dev/api/v1/ff042-70fc0-077bb/reactquerymenu"

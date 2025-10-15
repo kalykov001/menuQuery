@@ -1,0 +1,16 @@
+.container {
+  .mainContainer {
+    padding-top: 50px;
+    .inpAdd {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      gap: 15px;
+      
+      button {
+        padding: 8px 10px;
+        color: black;
+      }
+    }
+  }
+}
