@@ -36,19 +36,19 @@ navigate("/")
             <div className="container">
                 <div className={scss.mainContainer}>
 <div className={scss.inpAdd}>
-            <input
-              key={editName}
-              onChange={(e) => setEditName(e.target.value)}
-              type="text"
-              defaultValue={editName}
-              placeholder="name"
-            />
-            <input
+     <input
               defaultValue={editImage}
               onChange={(e) => setEditImage(e.target.value)}
               type="text"
               placeholder="image"
             />
+            <input
+                onChange={(e) => setEditName(e.target.value)}
+              type="text"
+              defaultValue={editName}
+              placeholder="name"
+            />
+         
             <input
               defaultValue={editPrice}
               onChange={(e) => setEditPrice(e.target.value)}
